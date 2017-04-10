@@ -1,0 +1,14 @@
+.tabs {
+  background-color: $color-bg-section;
+  padding: 9.1rem 0 7.1rem;
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .city {
+    width: 28%;
+    max-width: 326px;
+    height: auto;
+  }
+}

@@ -1,0 +1,34 @@
+.contact-us{
+  padding: 6.4rem 0 5rem;
+  header{
+    margin-bottom: 5.6rem;
+  }
+  form{
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 4.87rem;
+    div{
+      width: 48%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+.full-name,
+.email-address,
+.subject,
+.message{
+  border: none;
+  border-bottom: 2px solid #d6d6d6;
+  max-width: 33rem;
+  margin-bottom: 1.8rem;
+  padding: 0.68rem 0.4rem 0.68rem 0.68rem;
+  color: $color-text;
+  font: 0.87rem "Open Sans", sans-serif;
+}
+.message{
+  width: 48%;
+  resize:none
+}
+

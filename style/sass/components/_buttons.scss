@@ -1,0 +1,11 @@
+.btn{
+  color: $color-white;
+  font: 1rem "Open Sans", sans-serif;
+  padding: 0.62rem 1.87rem;
+  border: 3px solid $color-white;
+  &-orange{
+    background-color: $color-orange;
+    border: none;
+    border-radius: 7px;
+  }
+}

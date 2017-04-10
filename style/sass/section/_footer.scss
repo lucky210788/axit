@@ -1,0 +1,11 @@
+footer{
+  background-color: $color-black;
+  padding: 1.25rem 0 2rem;
+}
+.social-footer{
+  display: flex;
+  justify-content: center;
+  li{
+    margin: 0 0.87rem;
+  }
+}

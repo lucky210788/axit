@@ -1,0 +1,44 @@
+.our-process {
+  padding: 6.5rem 0;
+  header {
+    margin-bottom: 4.9rem;
+  }
+  .is-awesome {
+    display: flex;
+    justify-content: space-between;
+  }
+  .thoughtful-design,
+  .well-crafted,
+  .easy-to-customize {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-top: 6rem;
+  }
+  .thoughtful-design{
+    background: url("../../images/content/thoughtful-design-img.png") no-repeat 50% 0;
+  }
+  .well-crafted{
+    background: url("../../images/content/well-crafted-img.png") no-repeat 50% 0;
+  }
+  .easy-to-customize{
+    background: url("../../images/content/easy-to-customize-img.png") no-repeat 50% 0;
+  }
+  .header-process {
+    font: 1.25rem "Open Sans", sans-serif;
+    color: $color-black;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 1.75rem;
+    //text-align: center;
+  }
+  .content-process {
+    font: 0.87rem "Open Sans", sans-serif;
+    color: $color-text;
+    line-height: 1.429;
+    //text-align: center;
+  }
+}
+
+
+

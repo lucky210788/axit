@@ -1,0 +1,49 @@
+.customers-are-saying {
+  padding: 6.5rem 0 6rem;
+  header {
+    margin-bottom: 3.4rem;
+  }
+}
+
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonial {
+  width: 30%;
+  max-width: 17rem;
+  p {
+    background-color: $color-bg-section;
+    color: $color-text;
+    font: 0.87rem "Open Sans", sans-serif;
+    line-height: 2rem;
+    text-align: left;
+    padding: 2rem 0.8rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    border-radius: 8px;
+  }
+  p:after{
+    content: '';
+    width: 21px;
+    height: 14px;
+    background: url("../../images/content/testimonial-befor.png") no-repeat;
+    position: absolute;
+    bottom: -14px;
+    left: 1rem;
+  }
+  .name-position{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 1rem 5.4rem;
+    background: url("../../images/content/avatar.png") no-repeat 0 50%;
+  }
+  .name {
+    font: 1.25rem "Open Sans", sans-serif;
+    color: $color-black;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+}

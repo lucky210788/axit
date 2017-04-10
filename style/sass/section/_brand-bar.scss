@@ -1,0 +1,18 @@
+.brand-bar{
+ padding: 1.37rem 0;
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-section-little{
+    width: 30%;
+    max-width: 331px;
+  }
+}
+.social{
+  display: flex;
+  li{
+    margin: 0 1.87rem;
+  }
+}

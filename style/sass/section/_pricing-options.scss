@@ -1,0 +1,74 @@
+.pricing-options{
+  background-color: $color-bg-section;
+  padding: 6.5rem 0 6rem;
+  header{
+    margin-bottom: 5rem;
+  }
+}
+.acounts{
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.basic,
+.professional,
+.enterprise{
+  width: 30%;
+  max-width: 21.4rem;
+}
+.plan-head{
+  background-color: #333333;
+  display: flex;
+  flex-direction: column;
+  .plan{
+    color: $color-white;
+    font: 1.25rem "Open Sans", sans-serif;
+    font-weight: bold;
+    padding: 1.25rem 0;
+    border-bottom: 2px solid $color-white;
+  }
+  .prices{
+    color: $color-white;
+    font: 3.75rem "Raleway", sans-serif;
+    font-weight: bold;
+    padding: 1.87rem 0;
+    span{
+      font: 2.18rem "Raleway", sans-serif;
+      font-weight: bold;
+    }
+  }
+  .payment{
+    color: $color-white;
+    font: 0.87rem "Open Sans", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding-bottom: 1.37rem;
+    border-bottom: 5px solid $color-orange;
+  }
+  .most-popular{
+    color: $color-white;
+    font: 0.87rem "Open Sans", sans-serif;
+    font-weight: bold;
+    padding: 0.87rem 0;
+    background-color: $color-orange;
+  }
+}
+.space{
+  padding: 1rem 0;
+  color: $color-text;
+  font: 0.87rem "Open Sans", sans-serif;
+  border-bottom: 0.5px solid $color-text;
+  text-transform: uppercase;
+  background-color: $color-white;
+}
+.professional{
+  .payment{
+    border-bottom: none;
+  }
+}
+
+
+
+
+
+
